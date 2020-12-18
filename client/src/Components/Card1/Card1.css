@@ -1,0 +1,115 @@
+.card1{
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 25px 15px;
+    position: relative;
+    min-height: 380px;
+    min-width: 350px;
+    margin: 20px 35px;
+    text-align: left;
+    color:black;
+}
+.card1_text{
+    margin-top:15px;
+}
+.card1_text > p{
+    margin:10px 6px;
+}
+.card1_upper{
+    display: flex;
+}
+.card1_upperimg{
+    height:70px;
+    width:65px;
+    border-radius: 0.2rem;
+    border-style: double;
+    margin-right: 15px;
+}
+.card1_validity{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.card1_posting{
+    margin-left: 40px;
+}
+.card1_posting > p{
+    font-size: 10px;
+    font-weight: 600;
+    margin:5px;
+}
+.card1_text1{
+    margin-top:5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card1_text2{
+    margin:5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card1_WQ{
+    display: flex;
+}
+.card1_text3{
+    margin:5px 30px 5px 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card1_text4{
+    margin:5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card1_text5{
+    margin:5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card1_text6{
+    margin:5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card1_text7{
+    margin:5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card1_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card1_footer > img{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top:20px;
+}
+
+.cards_row{
+    display: flex;
+    flex:1;
+    overflow-x: scroll;
+}
+.allcards{
+    display:flex;
+}
+
+/* @media screen and (max-width: 960px){
+    .card1{
+        height:380px;
+        width: 350px;
+        margin: 20px 35px;
+        text-align: left;
+        color:black;
+    }
+    .card1_text3{
+        margin:5px 10px 5px 5px;
+    }
+
+} */

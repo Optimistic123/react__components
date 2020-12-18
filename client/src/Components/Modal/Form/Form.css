@@ -1,0 +1,40 @@
+.label_input{
+    height:30px;
+    width:400px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form_header{
+    position:relative;
+}
+.label_input > input {
+    height: 25px;
+    width: 200px;
+    border: 0.2rem solid rgba(0, 0, 0, 0.12);
+    outline: none;
+    background-color:  rgba(0, 0, 0, 0.12);
+    border-radius: 0.5rem ;
+}
+.button_t{
+    display:flex;
+}
+.button_t > button{
+    height: 25px;
+    width: 100px;
+    margin-right: 20px;
+    border: 0.2rem solid rgba(0, 0, 0, 0.12);
+    outline: none;
+    background-color:  rgba(0, 0, 0, 0.12);
+    border-radius: 0.3rem ;
+
+}
+
+.form2_header{
+    display: flex;
+    width:50%;
+}
+.form2_left{
+    flex:0.3;
+}
